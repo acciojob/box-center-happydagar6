@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+.box {
+            /* 1. Size & Appearance */
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+
+            /* 2. Position: Absolute Center (No negatives, No transform) */
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+       .text {
+            color: purple;
+            
+            /* 3. Text Alignment */
+            text-align: center;
+            
+            /* 4. Position: Absolute Center for Text */
+            /* We set a fixed height for the text line so margin: auto works vertically */
+            height: 20px; 
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
